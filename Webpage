@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+  <class="centered">
+  <body>
+    <h1>Alex Austria</h1>
+  <div>
+    <p>About me</p>
+  </div>
+    <p2>My name is Alexandra Austria. i am an uprising junior at Arroyo High School. 
+  </body>
+</html>
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+body {
+  font-family: 'Patrick Hand SC', cursive;
+  background-color: #F0F8FF;
+  font-size: 25px
+
+  }
+h1 {
+  text-align: center;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 60px;
+  color: #A9A9A9;
+}
+p { font-size: 35px}
+/*div {
+    background-color: lightgrey;
+    width: 250px;
+    padding: 5px;
+    margin: 0px;**/
