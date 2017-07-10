@@ -18,17 +18,16 @@
   </body>
 </html
 
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+
 body{
   margin: 0;
   padding: 0;
 
 }
 #BTS{
-    background: url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/wings/background/wings-background-3.jpg') no-repeat 50% 50%;
+  background: url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/wings/background/wings-background-3.jpg') no-repeat 50% 50%;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -54,9 +53,10 @@ a {
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: 'Electrolize', sans-serif;
   color: #A9A9A9;
   font-size: 100px;
+  text-decoration: none;
 }
 
 
@@ -99,4 +99,6 @@ ul li a .fa {
 ul li a:hover .fa{
   transform: rotateY(360deg);
 }
+
+
 
