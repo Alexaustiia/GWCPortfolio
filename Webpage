@@ -1,33 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title> Alex Austria </title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-  <class="centered">
   <body>
-    <h1>Alex Austria</h1>
-  <div>
-    <p>About me</p>
-  </div>
-    <p2>My name is Alexandra Austria. i am an uprising junior at Arroyo High School. 
+    <div id="BTS">
+      <div id="BYS"> </div>
+    </div>
+      <a href="file:///C:/Users/TSSFO175/Desktop/alex/homepage.html" class="lolbutton"> Alex Austria</a>
+      <ul>
+      <li><a href="https://www.instagram.com/alexaustriia/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/alexsustria"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.facebook.com/alexandratia.austria"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    </ul>
   </body>
-</html>
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
-body {
-  font-family: 'Patrick Hand SC', cursive;
-  background-color: #F0F8FF;
-  font-size: 25px
+</html
 
-  }
-h1 {
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+body{
+  margin: 0;
+  padding: 0;
+
+}
+#BTS{
+    background: url('https://s3-ap-northeast-1.amazonaws.com/ibighit/bts/wings/background/wings-background-3.jpg') no-repeat 50% 50%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+#BYS{
+  position: absolute;
+  background-color: rgba(0, 0,0,0.5);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
   text-align: center;
   font-family: 'Patrick Hand SC', cursive;
-  font-size: 60px;
   color: #A9A9A9;
+  font-size: 100px;
 }
-p { font-size: 35px}
-/*div {
-    background-color: lightgrey;
-    width: 250px;
-    padding: 5px;
-    margin: 0px;**/
+
+
+
+ul {
+  display: flex;
+  position: absolute;
+  top: 63%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+}
+
+ul li{
+  list-style: none;
+
+}
+ul li a {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  margin: 0 15px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+
+}
+
+ul li a .fa {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+
+}
+
+ul li a:hover .fa{
+  transform: rotateY(360deg);
+}
+
